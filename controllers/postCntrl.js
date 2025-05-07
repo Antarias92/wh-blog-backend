@@ -8,13 +8,6 @@ export const getPosts = (req, res) => {
 
         return res.status(200).json(data);
     })
-        /*const q = "SELECT * FROM posts WHERE cat=?";
-
-        db.query(q, [req.params.cat], (err, data) => {
-            if (err) return res.send(err);
-    
-            return res.status(200).json(data);
-        })*/
 
 }
 export const getPost = (req, res) => {
